@@ -4,18 +4,26 @@
       "authoring/b2b-manufacturing.module.json"
     ]
   },
-  "buildTargets": [],
   "renderingHosts": {
     "B2BManufacturing": {
       "path": ".",
-      "nodeVersion": "22",
+      "nodeVersion": "22.22.0",
       "jssDeploymentSecret": "generate",
-      "startCommand": "npm run start",
-      "buildCommand": "npm run build"
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
   },
-  "transforms": [],
   "postActions": {
-    "actions": []
+    "actions": {
+      "publish": {
+        "path": "/sitecore",
+        "languages": ["en"],
+        "itemIds": [],
+        "targets": ["Edge"],
+        "republish": false
+      }
+    }
   }
 }
