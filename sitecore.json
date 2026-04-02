@@ -1,10 +1,15 @@
 {
-  "modules": [
-    "authoring/b2b-manufacturing.module.json"
+  "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
+  "modules": ["authoring/items/**/*.module.json"],
+  "plugins": [
+    "Sitecore.DevEx.Extensibility.Serialization@6.0.23",
+    "Sitecore.DevEx.Extensibility.Publishing@6.0.23",
+    "Sitecore.DevEx.Extensibility.Indexing@6.0.23",
+    "Sitecore.DevEx.Extensibility.ResourcePackage@6.0.23",
+    "Sitecore.DevEx.Extensibility.XMCloud@1.1.120"
   ],
   "serialization": {
-    "defaultMaxRelativePath": 100,
+    "defaultMaxRelativeItemPathLength": 100,
     "defaultModuleRelativeSerializationPath": "items"
-  },
-  "plugins": []
+  }
 }

@@ -1,7 +1,8 @@
 {
+  "authoringPath": "./authoring",
   "deployItems": {
     "modules": [
-      "authoring/b2b-manufacturing.module.json"
+      "B2BManufacturing"
     ]
   },
   "renderingHosts": {
