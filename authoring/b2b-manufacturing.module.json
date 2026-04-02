@@ -1,0 +1,43 @@
+{
+  "namespace": "B2BManufacturing",
+  "items": {
+    "includes": [
+      {
+        "name": "Content",
+        "path": "/sitecore/content/B2BManufacturing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/B2BManufacturing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/B2BManufacturing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/B2BManufacturing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/B2BManufacturing",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Dictionary",
+        "path": "/sitecore/content/B2BManufacturing/Dictionary",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

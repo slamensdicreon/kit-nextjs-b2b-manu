@@ -1,0 +1,10 @@
+{
+  "modules": [
+    "authoring/b2b-manufacturing.module.json"
+  ],
+  "serialization": {
+    "defaultMaxRelativePath": 100,
+    "defaultModuleRelativeSerializationPath": "items"
+  },
+  "plugins": []
+}

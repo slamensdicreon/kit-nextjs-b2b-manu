@@ -1,0 +1,83 @@
+{
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "requestQuote": "Request a Quote",
+    "viewProducts": "View Products",
+    "readMore": "Read More",
+    "downloadNow": "Download Now",
+    "submitForm": "Submit",
+    "backToTop": "Back to Top",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No results found",
+    "search": "Search",
+    "close": "Close",
+    "open": "Open",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "caseStudies": "Case Studies",
+    "resources": "Resources",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "ctaLabel": "Get Started Today",
+    "secondaryCtaLabel": "View Our Products"
+  },
+  "products": {
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "category": "Category",
+    "industry": "Industry",
+    "specifications": "Specifications",
+    "downloads": "Downloads",
+    "relatedProducts": "Related Products",
+    "requestQuoteFor": "Request Quote for"
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Get a customized quote for your manufacturing needs",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "jobTitle": "Job Title",
+    "message": "Tell us about your requirements",
+    "product": "Product of Interest",
+    "quantity": "Estimated Quantity",
+    "timeline": "Project Timeline",
+    "submit": "Submit Quote Request",
+    "success": "Thank you! We'll get back to you within 24 hours.",
+    "privacyNote": "Your information is secure and will never be shared with third parties."
+  },
+  "footer": {
+    "tagline": "Precision engineering for modern manufacturing",
+    "quickLinks": "Quick Links",
+    "industries": "Industries",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Stay updated with the latest in manufacturing innovation.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 Apex Manufacturing Solutions. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "ai": {
+    "recommendationsTitle": "Recommended for You",
+    "summaryTitle": "AI Summary",
+    "searchPlaceholder": "Ask about our products and solutions...",
+    "generating": "Generating insights...",
+    "poweredBy": "Powered by Sitecore AI"
+  }
+}

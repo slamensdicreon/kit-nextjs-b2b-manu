@@ -1,0 +1,21 @@
+{
+  "deployItems": {
+    "modules": [
+      "authoring/b2b-manufacturing.module.json"
+    ]
+  },
+  "buildTargets": [],
+  "renderingHosts": {
+    "B2BManufacturing": {
+      "path": ".",
+      "nodeVersion": "22",
+      "jssDeploymentSecret": "generate",
+      "startCommand": "npm run start",
+      "buildCommand": "npm run build"
+    }
+  },
+  "transforms": [],
+  "postActions": {
+    "actions": []
+  }
+}
