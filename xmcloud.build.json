@@ -1,10 +1,5 @@
 {
   "authoringPath": "./authoring",
-  "deployItems": {
-    "modules": [
-      "B2BManufacturing"
-    ]
-  },
   "renderingHosts": {
     "B2BManufacturing": {
       "path": ".",
@@ -18,12 +13,11 @@
   },
   "postActions": {
     "actions": {
-      "publish": {
-        "path": "/sitecore",
-        "languages": ["en"],
-        "itemIds": [],
-        "targets": ["Edge"],
-        "republish": false
+      "warmUpCm": {
+        "urls": [
+          "/sitecore/shell",
+          "/sitecore/client/Applications/Launchpad"
+        ]
       }
     }
   }
