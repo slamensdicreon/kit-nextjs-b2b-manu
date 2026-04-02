@@ -11,6 +11,7 @@
     "dev:watch": "sitecore-tools watch",
     "build": "sitecore-tools build && next build",
     "start": "next start",
+    "next:start": "next start",
     "lint": "eslint .",
     "type-check": "tsc --noEmit",
     "test": "jest",
