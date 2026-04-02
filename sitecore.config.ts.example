@@ -1,0 +1,38 @@
+import { defineConfig } from '@sitecore-content-sdk/nextjs/config';
+
+export default defineConfig({
+  api: {
+    // Edge API configuration (used in production / connected mode)
+    edge: {
+      contextId: process.env.SITECORE_EDGE_CONTEXT_ID || '',
+      clientContextId: process.env.SITECORE_EDGE_CLIENT_CONTEXT_ID || '',
+      edgeUrl: process.env.SITECORE_EDGE_URL || 'https://edge-platform.sitecorecloud.io',
+    },
+    // Local API configuration (used in local development with containers)
+    local: {
+      apiKey: process.env.SITECORE_API_KEY || '',
+      apiHost: process.env.SITECORE_API_HOST || '',
+    },
+  },
+  defaultSite: process.env.SITECORE_SITE_NAME || 'b2b-manufacturing',
+  defaultLanguage: process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE || 'en',
+  editingSecret: process.env.SITECORE_EDITING_SECRET || '',
+  redirects: {
+    enabled: true,
+    locales: ['en'],
+  },
+  multisite: {
+    enabled: true,
+    useCookieResolution: (() => {
+      const defined = process.env.VERCEL_ENV || process.env.NODE_ENV;
+      return defined !== 'production';
+    })(),
+  },
+  personalize: {
+    edgeTimeout:
+      parseInt(process.env.NEXT_PUBLIC_PERSONALIZE_EDGE_TIMEOUT || '', 10) || 400,
+    cdpTimeout:
+      parseInt(process.env.NEXT_PUBLIC_PERSONALIZE_CDP_TIMEOUT || '', 10) || 400,
+    scope: process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE || undefined,
+  },
+});
